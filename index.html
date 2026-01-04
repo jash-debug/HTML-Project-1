@@ -113,11 +113,36 @@
             <a href="AHMED_NAJASH_CV.pdf" target="_blank">
                 <b>[View Full CV HERE]</b>
             </a>
+        </section>
 
-            <hr>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Say Hi</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required>
+                    <br>
+
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="hire">Buy Me Coffee</option>
+                        <option value="collab">Collaboration</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div>
+                        <label for="message">Message:</label><br>
+                        <textarea name="message" rows="5" cols="60"></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
         </section>
     </main>
-
 
 </body>
 
